@@ -1,6 +1,6 @@
 from flask import Flask
 '''
-It will create an instance of the flask class which will be your web server gateway interface.
+It will create an instance of the flask class which will be your web server gateway interface..
 '''
 app = Flask(__name__)
 @app.route("/")
