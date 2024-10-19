@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    Based on your marks, you have: {{ result }}
+    {% if result >= 50 %}
+        <h1>You have passed with marks {{ result }}</h1>
+    {% else %}
+        <h1>You have failed due to low score. Your score is {{ result }}</h1>
+    {% endif %}
+    <h5>This is a result that tells you about your performance.</h5>
+</body>
+</html>
